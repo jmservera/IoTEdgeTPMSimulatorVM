@@ -1,0 +1,11 @@
+[Unit]
+Description=TPM 2.0 Simulator
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/sbin/tpm_server
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
