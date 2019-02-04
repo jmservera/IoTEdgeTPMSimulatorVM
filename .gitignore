@@ -1,2 +1,3 @@
-tpm_sim/*
+tpm_sim/
+*.bin
 
